@@ -5,3 +5,5 @@ dist
 *.iml
 .vscode/
 vendor/
+bin/
+releases/

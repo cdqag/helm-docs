@@ -1,0 +1,9 @@
+name: "chart-docs"
+version: "1.14.2"
+usage: "Please see https://github.com/norwoodj/helm-docs for usage"
+description: "A tool for automatically generating markdown documentation for helm charts"
+useTunnel: false
+command: "$HELM_PLUGIN_DIR/bin/helm-chart-docs"
+hooks:
+  install: "cd $HELM_PLUGIN_DIR; ./install_plugin.sh"
+  update: "cd $HELM_PLUGIN_DIR; ./install_plugin.sh"
